@@ -1,0 +1,19 @@
+{
+  "name": "telegram-shell-bot-heroku",
+  "description": "Telegram Shell Bot running on Heroku",
+  "repository": "https://github.com/yourusername/your-repo",
+  "keywords": ["telegram", "python", "shell", "bot"],
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "stack": "heroku-20",
+  "env": {
+    "TELEGRAM_API_TOKEN": {
+      "description": "Your Telegram API Token",
+      "required": true
+    }
+  }
+}
