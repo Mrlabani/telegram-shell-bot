@@ -9,7 +9,7 @@
       "url": "heroku/python"
     }
   ],
-  "stack": "heroku-20",
+  "stack": "heroku-22",
   "env": {
     "TELEGRAM_API_TOKEN": {
       "description": "Your Telegram API Token",
