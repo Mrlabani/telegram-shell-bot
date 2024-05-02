@@ -1,13 +1,13 @@
 import os
 
-TOKEN = os.environ.get("TELEGRAM_API_TOKEN", '6498059135:AAEw4Vt4veJtIHOX2NOD-j0UsCD3zH_CyZQ')
+TOKEN = os.environ.get("TELEGRAM_API_TOKEN", '7041565052:AAEsi11EVJGUOKa0PbMnmWqyeq_4STfyJwc')
 
 PORT = int(os.environ.get("PORT", "8443"))
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "telegram-shell-bot")
 IS_HEROKU = os.environ.get("IS_HEROKU", True)
 
 # Set users to -999999 to disable user authentication
-ENABLED_USERS = os.environ.get("ENABLED_USERS", '6748415360')
+ENABLED_USERS = os.environ.get("ENABLED_USERS", '6408829655')
 ENABLED_USERS = set(int(e.strip()) for e in ENABLED_USERS.split(','))  # type: ignore
 
 CMD_WHITE_LIST = set()
